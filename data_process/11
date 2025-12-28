@@ -1,0 +1,9 @@
+# 定义输入和输出路径
+input_csv = '/data3/lph/dataset/IOT/ToN_IoT/SecurityEvents_Network_datasets/Password.csv'  # CSV 文件路径
+input_pcap_dir = '/data3/lph/IIOT_IncrementLearning/data/ToN_IoT_split/normal_attack/password_normal'  # 分割后的 PCAP 文件目录
+output_dir = '/data3/lph/IIOT_IncrementLearning/data/ToN_IoT_Label'  # 输出目录
+lock_file = '/data3/lph/IIOT_IncrementLearning/data/ToN_IoT_Label/lockfile.lock'  # 锁文件路径
+cache_file = '/data3/lph/IIOT_IncrementLearning/data/ToN_IoT_Label/password_normal_cache.pkl'  # 缓存文件路径
+
+
+ls -l | grep "-" | wc -l
